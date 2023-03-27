@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background-color:rgb(16, 203, 255);
+    overflow: hidden;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50vw;
+    height:50vh;
+}
+.image{
+    object-fit: cover;
+    width: 20vw;
+    height: 30vh;
+}
+.image img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20vw;
+    height: 20vh;
+}
+input{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+input::placeholder{
+    text-align: center;
+    color: rgb(255, 0, 98);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color: antiquewhite;
+}
+button{
+    padding: 7px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: beige;
+}
